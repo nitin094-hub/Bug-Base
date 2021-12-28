@@ -1,5 +1,5 @@
 import React ,{useState} from 'react'
-import 'D:/project web/bugbase project/your-project-name/src/style/App.css'
+import 'D:/project web/bugbase project/your-project-name/src/App.css'
 import Navbar from './components/Navbar';
 import DashboardHead from './components/DashboardHead';
 import StatsToday from './components/StatsToday';
