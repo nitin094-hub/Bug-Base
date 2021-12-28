@@ -1,0 +1,16 @@
+.LineGraphContainer {
+    flex-basis:70% ;
+    padding: 10px 10px 10px 10px;
+}
+div.LineGraphContainer > div:first-child{
+    border-radius: 10px;
+    padding: 8px 0px 0px 0px;
+    background-color: white;
+}
+
+.LineGraphContainer .LineGraphContainer-head{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 30px;
+}

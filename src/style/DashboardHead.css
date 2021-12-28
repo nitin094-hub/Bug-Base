@@ -1,0 +1,51 @@
+.dash-board{
+    display: flex;
+    position: relative;
+}
+.dash-icons{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-basis: 20rem;
+    height: 164px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.dash-head .icon-container{
+    flex-basis:29px;
+    display:none;
+}
+.dash-board .dashBoard-Hamburger-menu{
+    position: absolute;
+    top: 4.6rem;
+    cursor: pointer;
+}
+.dash-head{
+    /* border: 2px solid red; */
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 79rem;
+    display: flex;
+    height: 164px;
+    font-size: 1.3rem;
+}
+.curson-pointer{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1234px) {
+    .right-container{
+        flex-basis: 100%;
+        margin: 0px auto;
+    }
+    .dash-head .icon-container{
+        display:block;
+    }
+    
+}
+@media only screen and (max-width: 532px) {
+    .dash-head{
+        flex-basis: 37rem;
+    }
+    
+}

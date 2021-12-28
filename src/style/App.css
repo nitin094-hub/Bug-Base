@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body::-webkit-scrollbar {
+    width: 1em;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+  }
+
+h1,h2,h3,h4,h5{
+    font-weight: 500;
+}
+h2,h3,h4,h5{
+    font-size: 16px;
+}
+.App{
+    display: flex;
+    background-color: #faf8f8;
+}
+.right-container{
+    flex-basis: 80%;
+    margin: 0px auto;
+}
+
+.StatsToday-TaskActivities-Container{
+    display: flex;
+}
+.LineGraphContainer-TeamMemberPerformance-Container{
+    display: flex;
+}
+ 
+@media only screen and (max-width: 1234px) {
+    .right-container{
+        flex-basis: 100%;
+        margin: 0px auto;
+    }
+}
+@media only screen and (max-width: 986px) {
+    .StatsToday-TaskActivities-Container{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 796px) {
+    .LineGraphContainer-TeamMemberPerformance-Container{
+        flex-direction: column;
+    }
+}

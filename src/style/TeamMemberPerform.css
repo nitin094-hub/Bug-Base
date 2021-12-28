@@ -1,0 +1,29 @@
+.TeamMemberPerform {
+    flex-basis:30% ;
+    padding: 9px 0px 6px 15px;
+}
+.TeamMemberPerform-head{
+    margin: 0px 0px 26px 18px
+}
+div.TeamMemberPerform > div:first-child{
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    overflow-y: scroll;
+    height: 26.8rem;
+}
+div.TeamMemberPerform > div:first-child::-webkit-scrollbar {
+    width: 7px;               
+  }
+  
+  div.TeamMemberPerform > div:first-child::-webkit-scrollbar-track {
+    background: white;       
+  }
+  
+  div.TeamMemberPerform > div:first-child::-webkit-scrollbar-thumb {
+    background-color: gray;  
+    border-radius: 20px;       
+    border: 3px solid gray;  
+  }
+
+

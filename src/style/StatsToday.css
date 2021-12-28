@@ -1,0 +1,7 @@
+#StatsTodayContainer{
+    /* border: 1px solid red; */
+    flex-basis:59% ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

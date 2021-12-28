@@ -1,0 +1,28 @@
+.TeamMemberDataContainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0px;
+}
+.TeamMemberDataContainer .image {
+    display: flex;
+    flex-basis: 14rem;
+}
+.TeamMemberDataContainer .image img{
+    border-radius:10px ;
+    box-shadow: 2px ;
+    height: 54px;
+    width: 54px;
+    margin: 0px 19px;
+
+}
+.TeamMemberDataContainer .btn{
+    /* style={{background:"rgb(211, 216, 247)",color:"rgb(57, 84, 255)",border:"none"}} */
+    background-color: rgb(211, 216, 247);
+    color: rgb(57, 84, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+.image .MemberData{
+    margin: 6px 7px;
+}
